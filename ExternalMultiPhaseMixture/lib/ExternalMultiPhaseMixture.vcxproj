@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BD81175-0968-457B-85D3-7C7ED68BC3E5}</ProjectGuid>
+    <RootNamespace>ExternalMultiPhaseMixture</RootNamespace>
+    <ProjectName>ExternalMultiPhaseMixtureLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(ProjectDir)\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(ProjectDir)\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="source\BaseCalculator.h" />
+    <ClInclude Include="source\BaseCalculatorCache.h" />
+    <ClInclude Include="source\CalculatorMap.h" />
+    <ClInclude Include="source\CapeOpen\AMaterialObject.h" />
+    <ClInclude Include="source\CapeOpen\CapeOpenCalculator.h" />
+    <ClInclude Include="source\CapeOpen\CapeOpenSocket_1_0.h" />
+    <ClInclude Include="source\CapeOpen\CapeOpenSocket_1_1.h" />
+    <ClInclude Include="source\CapeOpen\COConsts.h" />
+    <ClInclude Include="source\CapeOpen\COstdafx.h" />
+    <ClInclude Include="source\CapeOpen\ICapeOpenSocket.h" />
+    <ClInclude Include="source\CapeOpen\MaterialObject_1_0.h" />
+    <ClInclude Include="source\CapeOpen\COUtilities.h" />
+    <ClInclude Include="source\CapeOpen\MaterialObject_1_1.h" />
+    <ClInclude Include="source\DummyCalculator.h" />
+    <ClInclude Include="source\errorhandling.h" />
+    <ClInclude Include="source\externalmixturemedialib.h" />
+    <ClInclude Include="source\fluidconstants.h" />
+    <ClInclude Include="source\FluidProp\FluidPropCalculator.h" />
+    <ClInclude Include="source\FluidProp\FluidProp_COM.H" />
+    <ClInclude Include="source\FluidProp\FluidProp_IF.H" />
+    <ClInclude Include="source\config.h" />
+    <ClInclude Include="source\Material.h" />
+    <ClInclude Include="source\CapeOpen\PropertyPackageManager.h" />
+    <ClInclude Include="source\ModelicaUtilities.h" />
+    <ClInclude Include="source\RefProp\refPropDllDefinitions.h" />
+    <ClInclude Include="source\RefProp\RefPropCalculator.h" />
+    <ClInclude Include="source\StringHelper.h" />
+    <ClInclude Include="source\TestCodeGeneration.h" />
+    <ClInclude Include="source\CapeOpen\Variant.h" />
+    <ClInclude Include="source\Units.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BaseCalculator.cpp" />
+    <ClCompile Include="source\BaseCalculatorCache.cpp" />
+    <ClCompile Include="source\CalculatorMap.cpp" />
+    <ClCompile Include="source\CapeOpen\AMaterialObject.cpp" />
+    <ClCompile Include="source\CapeOpen\CapeOpenCalculator.cpp" />
+    <ClCompile Include="source\CapeOpen\CapeOpenSocket_1_0.cpp" />
+    <ClCompile Include="source\CapeOpen\CapeOpenSocket_1_1.cpp" />
+    <ClCompile Include="source\CapeOpen\MaterialObject_1_0.cpp" />
+    <ClCompile Include="source\CapeOpen\COUtilities.cpp" />
+    <ClCompile Include="source\CapeOpen\MaterialObject_1_1.cpp" />
+    <ClCompile Include="source\DummyCalculator.cpp" />
+    <ClCompile Include="source\errorhandling.cpp" />
+    <ClCompile Include="source\externalmixturemedialib.cpp" />
+    <ClCompile Include="source\FluidProp\FluidPropCalculator.cpp" />
+    <ClCompile Include="source\FluidProp\FluidProp_IF.cpp" />
+    <ClCompile Include="source\Material.cpp" />
+    <ClCompile Include="source\CapeOpen\PropertyPackageManager.cpp" />
+    <ClCompile Include="source\RefProp\RefPropCalculator.cpp" />
+    <ClCompile Include="source\StringHelper.cpp" />
+    <ClCompile Include="source\TestCodeGeneration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\CapeOpen\CAPE-OPENv1-0-0.tlb" />
+    <None Include="source\CapeOpen\CAPE-OPENv1-1-0.tlb" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

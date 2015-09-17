@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExternalMultiPhaseMixtureLib", "lib\ExternalMultiPhaseMixture.vcxproj", "{0BD81175-0968-457B-85D3-7C7ED68BC3E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExternalMultiPhaseMixtureTester", "tester\ExternalMultiPhaseMixtureTester.vcxproj", "{0250CADA-02AC-44C5-B067-F268E1136457}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BD81175-0968-457B-85D3-7C7ED68BC3E5} = {0BD81175-0968-457B-85D3-7C7ED68BC3E5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD81175-0968-457B-85D3-7C7ED68BC3E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BD81175-0968-457B-85D3-7C7ED68BC3E5}.Debug|Win32.Build.0 = Debug|Win32
+		{0BD81175-0968-457B-85D3-7C7ED68BC3E5}.Release|Win32.ActiveCfg = Release|Win32
+		{0BD81175-0968-457B-85D3-7C7ED68BC3E5}.Release|Win32.Build.0 = Release|Win32
+		{0250CADA-02AC-44C5-B067-F268E1136457}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0250CADA-02AC-44C5-B067-F268E1136457}.Debug|Win32.Build.0 = Debug|Win32
+		{0250CADA-02AC-44C5-B067-F268E1136457}.Release|Win32.ActiveCfg = Release|Win32
+		{0250CADA-02AC-44C5-B067-F268E1136457}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

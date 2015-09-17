@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseCalculator">
+      <UniqueIdentifier>{1a41060f-d732-4bc0-8ec9-15509a8de172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface layer">
+      <UniqueIdentifier>{b904d6f8-e4af-481a-8f47-b2e9af5c0cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DummyCalculator">
+      <UniqueIdentifier>{16a9690e-41f4-4d09-acf5-454e7aa1a6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RefPropCalculator">
+      <UniqueIdentifier>{da829571-e2df-4e3a-ac05-2536e4d77a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FluidPropCalculator">
+      <UniqueIdentifier>{fb2ff818-8ddd-444d-92a1-d2b1e9dfbe9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CapeOpenCalculator">
+      <UniqueIdentifier>{2d2d3988-6de3-49e3-b43e-476ab50d81d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCodeGeneration">
+      <UniqueIdentifier>{15326a24-c27b-45a2-84e4-4e437487b7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CapeOpenCalculator\MaterialObject">
+      <UniqueIdentifier>{8c2821d3-84d1-4c3c-8e00-2dc029aead57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CapeOpenCalculator\CapeOpenSocket">
+      <UniqueIdentifier>{e0f738e4-3207-4e85-8a23-3baa32452ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CapeOpenCalculator\CapeOpenTLB">
+      <UniqueIdentifier>{ea5c9808-41e6-4107-9c71-7b3a053f11c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\BaseCalculator.h">
+      <Filter>BaseCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseCalculatorCache.h">
+      <Filter>BaseCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\externalmixturemedialib.h">
+      <Filter>Interface layer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DummyCalculator.h">
+      <Filter>DummyCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RefProp\refPropDllDefinitions.h">
+      <Filter>RefPropCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fluidconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FluidProp\FluidProp_COM.H">
+      <Filter>FluidPropCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FluidProp\FluidProp_IF.H">
+      <Filter>FluidPropCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\COstdafx.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\PropertyPackageManager.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TestCodeGeneration.h">
+      <Filter>TestCodeGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\CapeOpenCalculator.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FluidProp\FluidPropCalculator.h">
+      <Filter>FluidPropCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RefProp\RefPropCalculator.h">
+      <Filter>RefPropCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\COConsts.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelicaUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StringHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\MaterialObject_1_0.h">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\AMaterialObject.h">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\COUtilities.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\ICapeOpenSocket.h">
+      <Filter>CapeOpenCalculator\CapeOpenSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\CapeOpenSocket_1_0.h">
+      <Filter>CapeOpenCalculator\CapeOpenSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\Variant.h">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\errorhandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\MaterialObject_1_1.h">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapeOpen\CapeOpenSocket_1_1.h">
+      <Filter>CapeOpenCalculator\CapeOpenSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="source\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CalculatorMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseCalculator.cpp">
+      <Filter>BaseCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseCalculatorCache.cpp">
+      <Filter>BaseCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\externalmixturemedialib.cpp">
+      <Filter>Interface layer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DummyCalculator.cpp">
+      <Filter>DummyCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FluidProp\FluidProp_IF.cpp">
+      <Filter>FluidPropCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\PropertyPackageManager.cpp">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TestCodeGeneration.cpp">
+      <Filter>TestCodeGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\CapeOpenCalculator.cpp">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FluidProp\FluidPropCalculator.cpp">
+      <Filter>FluidPropCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RefProp\RefPropCalculator.cpp">
+      <Filter>RefPropCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StringHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\MaterialObject_1_0.cpp">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\AMaterialObject.cpp">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\COUtilities.cpp">
+      <Filter>CapeOpenCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\CapeOpenSocket_1_0.cpp">
+      <Filter>CapeOpenCalculator\CapeOpenSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\MaterialObject_1_1.cpp">
+      <Filter>CapeOpenCalculator\MaterialObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapeOpen\CapeOpenSocket_1_1.cpp">
+      <Filter>CapeOpenCalculator\CapeOpenSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="source\errorhandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CalculatorMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\CapeOpen\CAPE-OPENv1-0-0.tlb">
+      <Filter>CapeOpenCalculator\CapeOpenTLB</Filter>
+    </None>
+    <None Include="source\CapeOpen\CAPE-OPENv1-1-0.tlb">
+      <Filter>CapeOpenCalculator\CapeOpenTLB</Filter>
+    </None>
+  </ItemGroup>
+</Project>

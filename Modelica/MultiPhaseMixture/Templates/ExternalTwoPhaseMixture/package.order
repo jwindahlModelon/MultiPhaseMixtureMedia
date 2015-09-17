@@ -1,0 +1,14 @@
+PropertySetupInformation
+setupInfo
+printExternalFunctionCall
+eo
+getPhaseInformation
+getNumberOfPhases
+getNumberOfCompounds
+ThermoProperties
+Properties
+MultiPhaseProperties
+Auxilary
+SatPhaseEquilibriumProperties
+UnitBasis
+getPhases
