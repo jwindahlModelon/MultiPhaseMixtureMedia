@@ -4,7 +4,7 @@ It consists of two parts:
   * MultiPhaseMixture - a Modelica library
   * ExternalMultiPhaseMixture -  a C/C++ interface to MultiPhaseMixture with backends to CAPE-OPEN 1.0, RefProp and FluidProp
 
-For an overview of the framework, see the article [*MultiComponentMultiPhase - A Framework for Thermodynamic Properties in Modelica*](https://www.modelica.org/events/modelica2015/proceedings/html/submissions/ecp15118653_WindahlProlssBosmansTummescheitVanesSewgobind.pdf) 
+For an overview of the framework, see the article [*MultiComponentMultiPhase - A Framework for Thermodynamic Properties in Modelica*](http://dx.doi.org/10.3384/ecp15118653) 
 
 ## License
 MultiPhaseMixtureMedia is a free software and the use is completely at your own risk;
