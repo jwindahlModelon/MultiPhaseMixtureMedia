@@ -15,11 +15,8 @@
 #include <stdarg.h>
 
 #if DYMOLA
-extern "C" {
 #include "ModelicaUtilities.h"
-}
 #endif
-
 
 #if DYMOLA
 # define ERROR_MSG "Press the Stop button in Dymola to end the simulation!"
