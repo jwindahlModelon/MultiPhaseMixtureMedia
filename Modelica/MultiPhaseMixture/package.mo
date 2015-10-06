@@ -12,8 +12,8 @@ package MultiPhaseMixture
 
 
   annotation (
-    version="1.0",
-    versionDate="2015-08-31",
+    version="1.0.0",
+    versionDate="2015-10-06",
   uses(Modelica(version="3.2.1")),     Documentation(info="<html>
 <p><span style=\"font-family: MS Shell Dlg 2;\">MultiPhaseMixture is a library for multi-phase multi-component fluids. It uses a model based interface which is in line with the Modelica spirit of equation based modelling. The model based interface makes it possible to implement a thermo property model using a declarative approach. The library has an interface to the C-interface externalMultiPhaseMixture which makes it possible to use properties from an external property package.</span></p>
 <p><span style=\"font-family: MS Shell Dlg 2;\"></p><p><img src=\"modelica://MultiPhaseMixture/Resources/Images/externalFrameworkOverview.png\"/></span></p>
